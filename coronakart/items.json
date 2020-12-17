@@ -1,0 +1,74 @@
+[
+    {
+        "id": "I0001",
+        "delivery": 5,
+        "name": "Coronil",
+        "price": 550,
+        "brand": "Patanjali",
+        "image": "https://i.cdn.newsbytesapp.com/images/l141_23171592900838.jpg",
+        "available": 0
+    },
+    {
+        "id": "I0002",
+        "delivery": 6,
+        "name": "N95 Face Mask",
+        "price": 250,
+        "brand": "SanNap Luxuria",
+        "image": "https://m.media-amazon.com/images/I/81HAUbwmQbL._AC_UL320_.jpg",
+        "available": 145
+    },
+    {
+        "id": "I0003",
+        "delivery": 2,
+        "name": "Hand Sanitizer",
+        "price": 100,
+        "brand": "Palmolive",
+        "image": "https://m.media-amazon.com/images/I/519xYBPVVXL._AC_UL320_.jpg",
+        "available": 100
+    },
+    {
+        "id": "I0004",
+        "delivery": 3,
+        "name": "Cotton Hand Gloves",
+        "price": 300,
+        "brand": "HeadTurners",
+        "image": "https://m.media-amazon.com/images/I/41HjoBe1qoL._AC_UL320_.jpg",
+        "available": 33
+    },
+    {
+        "id": "I0005",
+        "delivery": 7,
+        "name": "Rubber Hand Gloves",
+        "price": 450,
+        "brand": "Warrior Siddy",
+        "image": "https://m.media-amazon.com/images/I/610iXX1YJKL._AC_UL320_.jpg",
+        "available": 100
+    },
+    {
+        "id": "I0006",
+        "delivery": 14,
+        "name": "PPE Safety Kit",
+        "price": 700,
+        "brand": "Spoy",
+        "image": "https://m.media-amazon.com/images/I/51XGyjJL8eL._AC_UL320_.jpg",
+        "available": 18
+    },
+    {
+        "id": "I0007",
+        "delivery": 6,
+        "name": "Face Shield",
+        "price": 300,
+        "brand": "Kayra",
+        "image": "https://m.media-amazon.com/images/I/51UbjaB7OvL._AC_UL320_.jpg",
+        "available": 200
+    },
+    {
+        "id": "I0008",
+        "delivery": 5,
+        "name": "Infrared Thermometer",
+        "price": 1000,
+        "brand": "Wayona Bo Hui",
+        "image": "https://m.media-amazon.com/images/I/51li3-725iL._AC_UL320_.jpg",
+        "available": 99
+    }
+]

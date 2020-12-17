@@ -1,0 +1,1 @@
+from coronakart import app

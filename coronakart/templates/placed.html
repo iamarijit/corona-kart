@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="section">
+        <img src="{{ item.image }}" alt="Ramdev zindabaad" width="300" height="300">
+    </div>
+    <div class="section">
+        Item Name - {{ item.name }} <br>
+        Brand - {{ item.brand }}<br>
+        Quantity - {{ order.quantity }}<br>
+        Total Price - ₹ {{ price }}<br>
+    </div>
+    <div class="message">
+        Your order has been placed {{ order.name }} 😊
+    </div>
+
+{% endblock %}

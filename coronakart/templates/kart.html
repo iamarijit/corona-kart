@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for item in items %}
+        <div class="container-items">
+            <div class="item image">
+                <img class="item-image" src="{{ item.image }}" alt="Ramdev zindabaad" width="180" height="180">
+            </div>            
+            <div class="item details">
+                <div class="item-name">
+                    {{ item.name }}
+                </div>
+
+                <div class="item-brand">
+                    <b>Brand</b> - {{ item.brand }}
+                </div>
+
+                <div class="item-delivery">
+                    {% if item.available > 0 %}
+                        Delivery within {{ item.delivery }} days
+                    {% else %}
+                        Not delivering item
+                    {% endif %}
+                </div>
+
+                <div class="item-price">
+                    <b>₹ {{ item.price }}</b>
+                </div>
+
+                <div>
+                    {% if item.available > 0 %}
+                        <a href="{{ url_for('order', id=item.id) }}">
+                            <button class="available" type="button">Order Item</button>
+                        </a>
+                    {% else %}
+                        <button class="unavailable" type="button">Out of Stock</button>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock %}

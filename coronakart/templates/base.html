@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Corona-Kart</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+        {% block static %}
+
+        {% endblock %}       
+    </head>
+
+    <body>
+        {% include "logo.html" %}
+
+        <div class="container-content">
+            {% block content %}
+    
+            {% endblock %}
+        </div>
+
+        {% include "footer.html" %}
+    </body>
+</html>
